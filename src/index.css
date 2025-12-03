@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;600;700&display=swap');
+
+
+@theme {
+  --color-custom-stone: hsl(30, 54%, 90%);
+  --color-custom-stone150: hsl(30, 18%, 87%);
+  --color-custom-stone600: hsl(30, 10%, 34%);
+  --color-custom-stone900: hsl(24, 5%, 18%);
+  --color-custom-background: #f3e5d8;
+
+  --color-custom-brown: hsl(14, 45%, 36%);
+
+  --color-custom-rose800: hsl(332, 51%, 32%);
+  --color-custom-rose50: hsl(330, 100%, 98%);
+  
+   /* Define Young Serif as a custom utility */
+  --font-young-serif: 'Young Serif', serif;
+  
+  /* Define Outfit as a custom utility */
+  --font-outfit: 'Outfit', sans-serif;
+  
+  /* Optional: Make Outfit your default sans-serif font */
+  --font-sans: 'Outfit', sans-serif;
+  
+  /* Optional: Make Young Serif your default serif font */
+  --font-serif: 'Young Serif', serif;
+}
